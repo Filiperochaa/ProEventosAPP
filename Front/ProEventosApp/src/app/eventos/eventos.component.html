@@ -1,0 +1,21 @@
+<h1>Evento component</h1>
+
+<table class="table-primary">
+  <thead>
+    <tr>
+      <th scope="col">TEMA</th>
+      <th scope="col">LOCAL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr scope="row" *ngFor="let evento of eventos">
+      <th >
+        <p>{{evento.tema}}</p>
+      </th>
+      <th>
+        <p>{{evento.local}}</p>
+      </th>
+    </tr>
+  </tbody>
+</table>
+
